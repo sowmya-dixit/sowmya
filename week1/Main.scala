@@ -13,6 +13,9 @@ object Main {
     var list1 = "())("
     if(balance(list1.toList)) println(list1 + " is balancing")
     else println(list1 + " is not balancing")
+    println()
+    println("Counting change")
+    println(countChange(4,List(1,2)) + " different ways to give change")
   }
 
   /**
@@ -43,6 +46,11 @@ object Main {
   /**
    * Exercise 3
    */
-  def countChange(money: Int, coins: List[Int]): Int = ???
+  def countChange(money: Int, coins: List[Int]): Int = {
+     if (coins.isEmpty) 0
+     else if (money - coins.head == 0) 1
+     else if (money - coins.head < 0) 0
+     else countChange(money - coins.head, coins) + countChange(money, coins.tail)
+  }
 }
 
