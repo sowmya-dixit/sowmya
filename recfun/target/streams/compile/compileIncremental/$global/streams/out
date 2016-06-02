@@ -1,0 +1,69 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/recfun/Main.scala, /home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/recfun/Main.scala, /home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/recfun/Main.scala, /home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/sowmyadixit/Downloads/scala-assignments/recfun/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.7  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_742e3820[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/jdk1.7.0_76/jre/lib/resources.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/rt.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/jce.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.7.0_76/jre/classes:/home/sowmyadixit/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/sowmyadixit/.sbt/boot/scala-2.10.5/org.scala-sbt/sbt/0.13.9/xsbti/interface-0.13.9.jar:/home/sowmyadixit/.sbt/boot/scala-2.10.5/org.scala-sbt/sbt/0.13.9/compiler-interface-src/compiler-interface-src-0.13.9.jar:/home/sowmyadixit/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.7.jar:/home/sowmyadixit/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/sowmyadixit/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/home/sowmyadixit/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/sowmyadixit/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67eb7895/xsbt/ScaladocInterface.scala[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1520a50e, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/jdk1.7.0_76/jre/lib/resources.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/rt.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/jce.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.7.0_76/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.7.0_76/jre/classes:/home/sowmyadixit/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/sowmyadixit/Downloads/scala-assignments/recfun/target/scala-2.11/classes:/home/sowmyadixit/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar:/home/sowmyadixit/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar:/home/sowmyadixit/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/home/sowmyadixit/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 29.433595491 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/recfun/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/recfun/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/recfun/Main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, pascal, balance, main, notifyAll, isInstanceOf, ==, clone, Main, toString, !=, getClass, countChange, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/common/package.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/common/package.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/sowmyadixit/Downloads/scala-assignments/recfun/src/main/scala/common/package.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, package, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, resourceAsStreamFromSrc, notifyAll, isInstanceOf, ???, ==, clone, subFile, toString, !=, getClass, ne, eq, ##, finalize, hashCode, ***.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
